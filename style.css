@@ -536,7 +536,7 @@ section {
     header .navigation {
         display: none;
     }
-    header.navigation a {
+    header .navigation a {
         color: #000;
         font-size: 22px;
         margin: 10px;
@@ -558,7 +558,7 @@ section {
         box-shadow: 0 25px rgba(1, 1, 1, 15%);
         transition: .3s ease;
     }
-    header.navigation a:hover {
+    header .navigation a:hover {
         background: crimson;
         color: #fff;
     }
@@ -573,7 +573,6 @@ section {
         margin: 0 20px;
         cursor: pointer;
         transition: .4s ease;
-        filter: invert(1);
     }
     .menu-btn.active {
         z-index: 999;
@@ -581,6 +580,7 @@ section {
         background-size: 25px;
         background-position: center;
         transition: .3s ease;
+        filter: invert(1);
     }
     section {
         padding: 80px 20px;
